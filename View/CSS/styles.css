@@ -1,0 +1,35 @@
+/* Estilos para la barra de navegación */
+.navbar-custom {
+    background-color: #343a40;
+}
+
+/* Estilos para el enlace activo en la barra de navegación */
+.nav-link-active {
+    color: #fff !important; 
+}
+
+/* Estilos para el componente de tarjeta */
+.card-custom {
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+/* Estilos para el encabezado de la tarjeta */
+.card-header-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 1.25rem; 
+    font-size: 1.25rem; 
+}
+
+/* Estilos para el encabezado de la tabla */
+.table-header-custom {
+    background-color: #f8f9fa; 
+}
+
+/* Estilos para las insignias de estado */
+.badge-status {
+    font-size: 0.9rem; 
+}
