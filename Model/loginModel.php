@@ -1,5 +1,5 @@
 <?php 
-    require_once(__DIR__ . '/../Model/loginModel.php');
+    require_once(__DIR__ . '/../Model/conexionModel.php');
 
     class loginModel {
 

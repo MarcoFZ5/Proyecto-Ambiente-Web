@@ -16,7 +16,7 @@ class loginController {
                 ?>
                  <script>
                     alert('Error al Iniciar Sesion.');
-                    window.location.href = '../View/CSS/home.php';
+                    window.location.href = '../CSS/home.php';
                  </script>
                 <?php
 
@@ -24,7 +24,7 @@ class loginController {
 
                 session_start();
                 $_SESSION['username'] = $username[0]['Usuario'];
-                header('Location: ../View/CSS/index.php');
+                header('Location: /index.php');//
 
             }
             print_r($username);
