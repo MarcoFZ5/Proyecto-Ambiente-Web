@@ -1,6 +1,10 @@
 /* Estilos para la barra de navegación */
 .navbar-custom {
     background-color: #343a40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* Estilos para el enlace activo en la barra de navegación */
