@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if (is_null($_SESSION['username'])) {
+    header('Location: /View/CSS/home.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Proyectos</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/View/CSS/styles.css">
 </head>
 <body>
     <!-- Barra de navegación -->

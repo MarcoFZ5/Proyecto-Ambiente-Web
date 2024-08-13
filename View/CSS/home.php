@@ -170,17 +170,17 @@ require_once('../../Controller/loginController.php');
 
     
 <main class="form-signin w-100 m-auto">
-  <form action="../CSS//home.php?action=login" method="post">
+  <form action="../CSS/home.php?action=login" method="post">
     <div style="text-align: center;">
     <img class="mb-4" src="https://cdn-icons-png.flaticon.com/512/6886/6886480.png" alt="" width="100" height="100">
     <h1 class="h3 mb-3 fw-normal">Inicio de sesión</h1>
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control" name="username" id="floatingInput" placeholder="name@example.com">
+      <input type="text" class="form-control" name="username" id="floatingInput">
       <label for="floatingInput">Nombre de usuario</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" name="clave" id="floatingPassword" placeholder="Password">
+      <input type="password" class="form-control" name="clave" id="floatingPassword">
       <label for="floatingPassword">Contraseña</label>
     </div>
 
